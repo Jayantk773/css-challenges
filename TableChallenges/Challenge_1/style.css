@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./images/pexels-arvind-shakya-668282.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+h1,h2{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.yo{
+  width: 100%;
+  color: #fff;
+  margin-left: 80px;
+}
+
+h3{
+margin-left: 37%;
+}
+button{
+  width: 330px;
+  height: 35px;
+  background-color: #209898;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

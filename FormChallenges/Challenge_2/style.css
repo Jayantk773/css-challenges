@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Poppins:ital@0;1&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,700;1,400&family=Poppins:ital@0;1&family=Ubuntu&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(45deg, #aaf72e 0%,  #2c89d4 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafcfc;
+  width: 22%;
+  height: 60%;
+  gap: 25px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 2px 5px 10px #2e0707;
+}
+h1 {
+  font-family: Dancing Script, cursive;
+  font-size: 40px;
+}
+h1::before {
+  content: " ";
+  border-left: 3px solid #12b0e8;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.inputbox {
+  display: flex;
+  margin-top: 30px;
+  position: relative;
+}
+form input[type="text"] {
+  width: 250px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+span{
+    position: absolute;
+    top: 23%;
+    left: 15px;
+}
+
+form input[type="button"] {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: #12b0e8;
+  color: #fff;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+}

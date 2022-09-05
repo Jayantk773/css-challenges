@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+QLD+Beginner&family=Montserrat:ital,wght@0,700;1,400&family=Poppins:ital@0;1&family=Ubuntu&display=swap");
+
+*{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-weight: 800;
+}
+
+table,
+td,
+th,
+tr {
+  border: 2px solid #fff;
+  background-color: aquamarine;
+  border-collapse: collapse;
+  padding: 20px;
+}
+th {
+  color: #eb6d6d;
+}
+table {
+  position: relative;
+  font-family: "Edu QLD Beginner", cursive;
+}
+caption {
+  position: absolute;
+  top: 101%;
+  left: 35%;
+}
+ 
